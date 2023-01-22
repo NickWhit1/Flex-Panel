@@ -8,6 +8,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <style>
@@ -59,13 +60,13 @@
         background-image: url(../Images/lightning3.jpg);
       }
       .panel2 {
-        background-image: url(https://source.unsplash.com/rFKUFzjPYiQ/1500x1500);
+        background-image: url(../Images/waves1.jpg);
       }
       .panel3 {
         background-image: url(../Images/volcano.jpg);
       }
       .panel4 {
-        background-image: url(https://source.unsplash.com/ITjiVXcwVng/1500x1500);
+        background-image: url(../Images/aurora.jpg);
       }
       .panel5 {
         background-image: url(../Images/lightning2.jpg);
@@ -88,11 +89,10 @@
       .panel.open-active > *:first-child {
         transform: translateY(0);
       }
-
       .panel > * :last-child {
         transform: translateY(100%);
       }
-      .panel.panel.open-active > * :last-child {
+      .panel.open-active > * :last-child {
         transform: translateY(0);
       }
 
@@ -110,6 +110,12 @@
       .panel.open {
         flex: 5;
         font-size: 40px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .panel p {
+          font-size: 1em;
+        }
       }
     </style>
 
