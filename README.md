@@ -5,10 +5,6 @@ This is a project that utilizes flexbox to create a set of panels that can be cl
 Getting Started
 To get started, simply clone this repository and open the index.html file in your web browser.
 
-bash
-Copy code
-git clone https://github.com/NickWhit1/flex-panels.git
-
 Built With
 -HTML
 -CSS
