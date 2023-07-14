@@ -1,4 +1,4 @@
-const panels = document.querySelectorAll(".panel");
+/*const panels = document.querySelectorAll(".panel");
 
       function toggleOpen() {
         console.log("Hello");
@@ -16,3 +16,4 @@ const panels = document.querySelectorAll(".panel");
       panels.forEach((panel) =>
         panel.addEventListener("transitionend", toggleActive)
       );
+      */
